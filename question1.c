@@ -10,7 +10,6 @@
 int startPosition = 0;
 
 int ranArray[requests];
-int testArray[requests];
 
 //FCFS
 int fcfs(int *ranArray) {
@@ -34,13 +33,10 @@ int fcfs(int *ranArray) {
 int* sortArray() {
 
 	int temp = 0;
-
 	for (int i = 0; i < requests; ++i) {
-
        	for (int j = i + 1; j < requests; ++j) {
 
             if (ranArray[i] > ranArray[j]) {
-
                 temp =  ranArray[i];
                 ranArray[i] = ranArray[j];
                 ranArray[j] = temp;
@@ -52,7 +48,7 @@ int* sortArray() {
 }
 
 //SCAN
-int scan(int * ranArray) {
+int scan(int *ranArray) {
 
     //(must be sorted first)
     ranArray = sortArray();

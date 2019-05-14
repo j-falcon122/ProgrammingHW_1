@@ -2,16 +2,18 @@
 Homework for CMP 426 (Operating Systems)
 
  # Programming Assignment 1
- This is your last programming assignment for the course. As we have done with all programming assignment, this is a group work. The due date is May 14th by 11:59 pm. No late work will be accepted.How to submit.•Share your GitHub repo link to your solution
+ This is your last programming assignment for the course. As we have done with all programming assignment, this is a group work. The due date is May 14th by 11:59 pm. No late work will be accepted.How to submit.
+ 
+ Share your GitHub repo link to your solution
 
  # Question 1.
  Write a program that implements the following disk-scheduling algorithms:
- a)FCFS
- b)SSTF
- c)SCAN
- d)C-SCAN
- e)LOOK
- f)C-LOOK
+ 1. FCFS
+ 2. SSTF
+ 3. SCAN
+ 4. C-SCAN
+ 5. LOOK
+ 6. C-LOOK
 
  Your program will service a disk with 5,000 cylinders numbered 0 to 4,999. The program will generate a random series of 1,000 cylinder requests and service them according to each of the algorithms listed above. The program will be passed the initial position of the disk head (as a parameter on the command line) and report the total amount of head movement required by each algorithm.
 
